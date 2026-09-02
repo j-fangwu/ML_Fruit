@@ -1,9 +1,9 @@
-# 🍎 ML Fruit Classification Project  
+# ML Fruit Classification Project  
 *A comparative study of machine learning models for fruit image recognition, analyzing the impact of color vs. shape features.*  
 
 ---
 
-## 📌 Overview  
+##  Overview  
 This project evaluates **8 machine learning models** (CNN, ANN, SVM, etc.) on the [Fruits-360 dataset](https://www.kaggle.com/datasets/moltean/fruits) to determine whether **color** or **shape** features dominate classification accuracy. Key findings:  
 - **CNN achieved 100% accuracy**, outperforming all other models.  
 - Grayscale images reduced accuracy by **~3-10%**, confirming color’s importance.  
@@ -11,7 +11,7 @@ This project evaluates **8 machine learning models** (CNN, ANN, SVM, etc.) on th
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 - **Models**: CNN, ANN, SVM, Random Forest, Logistic Regression, Naive Bayes, Decision Tree, KNN  
 - **Tools**: TensorFlow/Keras, Scikit-learn, OpenCV, Matplotlib  
 - **Analysis**: Grad-CAM, t-SNE, K-means clustering  
@@ -19,7 +19,7 @@ This project evaluates **8 machine learning models** (CNN, ANN, SVM, etc.) on th
 
 ---
 
-## 🔍 Key Experiments  
+##  Key Experiments  
 1. **Color vs. Shape Analysis**:  
    - Tested models on **3 color groups** (Red/Yellow/Green), **3 shape groups** (Circular/Not Quite Circular/Tubular), and Randomized Fruits.  
    - Grayscale conversions reduced accuracy, especially for red/yellow fruits.  
@@ -37,7 +37,7 @@ This project evaluates **8 machine learning models** (CNN, ANN, SVM, etc.) on th
 
 ---
 
-## 📊 Results & Discussion
+## Results & Discussion
 
 **1. Color vs. Shape Impact:**
 
@@ -70,7 +70,7 @@ While the small accuracy gap (92% vs. 91%) **suggests no dominant feature** (col
 
 ---
 
-## 🎯 Conclusion & Recommendations
+## Conclusion & Recommendations
 **Summary**
 
 **1. Feature Impact:**
